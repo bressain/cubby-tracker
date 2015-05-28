@@ -1,11 +1,4 @@
 import React from 'react'
-
-class App extends React.Component {
-  render() {
-    return (
-      <div>ohai!</div>
-    )
-  }
-}
+import App from './app.js'
 
 React.render(<App />, document.getElementById('app'))
